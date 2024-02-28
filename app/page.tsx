@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaRegFilePdf } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
 
-export function ProjectLink({ link, name, sub, stack, thumb }:{link:string, name:string, sub:string, stack:string, thumb:string}) {
+function ProjectLink({ link, name, sub, stack, thumb }:{link:string, name:string, sub:string, stack:string, thumb:string}) {
   return (
     <div>
       <a
