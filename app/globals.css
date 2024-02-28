@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+html {
+  min-width: 360px;
+}
+html{
+  background-color: #111010;
+}
+body{
+  background-color: #111010;
+}
+div{
+  background-color: #111010;
+}
