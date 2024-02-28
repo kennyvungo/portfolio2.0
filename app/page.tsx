@@ -53,14 +53,14 @@ export default function Page() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        hey, I'm Kenny👋
+        hey, I&apos;m Kenny👋
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           I am a software developer, pharmacist, and adventurer. I have always
           loved making and tinkering with things and followed this passion into
-          coding. Here you can find some of the projects I'm currently working
-          on as well as some of my past work.
+          coding. Here you can find some of the projects I&apos;m currently
+          working on as well as some of my past work.
         </p>
       </div>
       <div className="columns-2 sm:columns-3 gap-4 my-8">
@@ -126,7 +126,7 @@ export default function Page() {
         </div>
       </div>
       <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded px-3 py-4 w-1/4 mb-6 flex flex-row justify-around items-center items-start align-middle hover:text-neutral-200">
-          <GrDocumentText/>
+        <GrDocumentText />
         <a href="files/KennyNgoresume.pdf" className="bg-inherit">
           Resume in PDF
         </a>
