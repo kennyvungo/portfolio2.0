@@ -115,8 +115,8 @@ export default function Page() {
         </a>
       </div>
       <p>
-        I have built and deployed several projects with various technologies; you
-        can find several of them below.
+        I have built and deployed several projects with various technologies;
+        you can find several of them below.
       </p>
       <div className="my-8 flex flex-col space-y-4 w-full">
         <ProjectLink
@@ -143,8 +143,9 @@ export default function Page() {
       </div>
       <div>
         <p>
-          I'm always open to talk, whether it be about code, healthcare, or new opportunities. 
-          Best way to reach me is by email at kennyvungo@gmail.com
+          I&apos;m always open to talk, whether it be about code, healthcare, or
+          new opportunities. Best way to reach me is by email at
+          kennyvungo@gmail.com
         </p>
       </div>
       <div className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm mb-24 text-neutral-600 dark:text-neutral-300">
