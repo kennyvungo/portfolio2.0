@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaRegFilePdf } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
 
-function ProjectLink({ link, name, sub, stack, thumb }:{link:string, name:string, sub:string, stack:string, thumb:string}) {
+export function ProjectLink({ link, name, sub, stack, thumb }:{link:string, name:string, sub:string, stack:string, thumb:string}) {
   return (
     <div>
       <a
@@ -111,11 +111,11 @@ export default function Page() {
       <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded px-3 py-4 w-1/4 mb-6 flex flex-row justify-around items-center items-start align-middle hover:text-neutral-200">
         <GrDocumentText />
         <a href="files/KennyNgoresume.pdf" className="bg-inherit">
-          Resume in PDF
+          Resume PDF
         </a>
       </div>
       <p>
-        I have built and deployed several projects with various tech stacks. You
+        I have built and deployed several projects with various technologies; you
         can find several of them below.
       </p>
       <div className="my-8 flex flex-col space-y-4 w-full">
@@ -141,7 +141,12 @@ export default function Page() {
           stack="Ruby on Rails, ReactJS, NodeJS, PostgreSQL"
         />
       </div>
-
+      <div>
+        <p>
+          I'm always open to talk, whether it be about code, healthcare, or new opportunities. 
+          Best way to reach me is by email at kennyvungo@gmail.com
+        </p>
+      </div>
       <div className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm mb-24 text-neutral-600 dark:text-neutral-300">
         <p>
           <a
