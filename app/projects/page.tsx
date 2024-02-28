@@ -1,9 +1,9 @@
 import React from 'react'
 
-const JournalPage = () => {
+const ProjectsPage = () => {
   return (
     <div>under construction</div>
   )
 }
 
-export default JournalPage
+export default ProjectsPage

@@ -1,15 +1,24 @@
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
 
 const WorkPage = () => {
   return (
-    <section className='mb-24'>
+    <section className="mb-24">
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p></p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">BottleUp </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+        <h2 className="font-medium text-xl tracking-tighter flex flex-row justify-between overflow-y-auto">
+          BottleUp{" "}
+          <Image
+            src={"/bottle.jpg"}
+            alt="bottleup logo"
+            width={45}
+            height={50}
+          />{" "}
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm -mt-3 mb-1">
           Software Engineer Intern, Oct 2023 - Present
         </p>
         <ul>
@@ -28,9 +37,11 @@ const WorkPage = () => {
           </li>
         </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Freelance</h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Software Engineer, Jul 2023 — Present
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          Freelance{" "}
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm mb-1">
+          Software Engineer, Jul 2023 - Present
         </p>
         <ul>
           <li>
@@ -49,10 +60,16 @@ const WorkPage = () => {
         </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          Alto Pharmacy
+        <h2 className="font-medium text-xl mb-1 tracking-tighter flex flex-row justify-between">
+          Alto Pharmacy{" "}
+          <Image
+            src={"/alto.jpg"}
+            alt="alto logo"
+            width={45}
+            height={50}
+          />
         </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm -mt-3 mb-1">
           Pharmacist, Oct 2023 - Present
         </p>
         <ul>
@@ -71,10 +88,16 @@ const WorkPage = () => {
           </li>
         </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          Castle Family Health Center
+        <h2 className="font-medium text-xl mb-1 tracking-tighter flex flex-row justify-between">
+          Castle Family Health Center{" "}
+          <Image
+            src={"/castle.jpg"}
+            alt="castle logo"
+            width={45}
+            height={50}
+          />
         </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm -mt-3 mb-1">
           Pharmacy Manager, Apr 2021 - Jan 2023
         </p>
         <ul>
@@ -93,10 +116,16 @@ const WorkPage = () => {
           </li>
         </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+        <h2 className="font-medium text-xl mb-1 tracking-tighter flex flex-row justify-between">
           BJRX Long Term Care
+          <Image
+            src={"/bjrx.jpg"}
+            alt="bjrx logo"
+            width={45}
+            height={50}
+          />
         </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm -mt-3 mb-1">
           Staff Pharmacist, Mar 2021 - Jan 2023
         </p>
         <ul>
@@ -115,10 +144,16 @@ const WorkPage = () => {
           </li>
         </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          CVS Health
+        <h2 className="font-medium text-xl mb-1 tracking-tighter flex flex-row justify-between">
+          CVS Health{" "}
+          <Image
+            src={"/cvs.jpg"}
+            alt="cvs logo"
+            width={45}
+            height={50}
+          />
         </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm -mt-3 mb-1">
           Floater Pharmacist, Sep 2020 - Jan 2021
         </p>
         <ul>

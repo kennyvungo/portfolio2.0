@@ -4,11 +4,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaRegFilePdf } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
 
-function ProjectLink({ slug, name, sub, stack, thumb }:{slug:string, name:string, sub:string, stack:string, thumb:string}) {
+function ProjectLink({ link, name, sub, stack, thumb }:{link:string, name:string, sub:string, stack:string, thumb:string}) {
   return (
     <div>
       <a
-        href={`/project/${slug}`}
+        href={link}
         className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex flex-row items-start justify-between px-3 py-4 h-56 hover:text-neutral-200"
       >
         <div className="flex flex-col bg-inherit ml-2 mt-2">
@@ -115,35 +115,35 @@ export default function Page() {
         </a>
       </div>
       <p>
-        I have worked with many technologies and built and deployed several
-        projects. You can find the link to some of them below
+        I have built and deployed several projects with various tech stacks. You
+        can find several of them below.
       </p>
       <div className="my-8 flex flex-col space-y-4 w-full">
         <ProjectLink
           name="unumcornu"
-          slug="unumcornu"
+          link="https://unumcornu.com"
           sub="site commissioned for local ceramics artist"
           thumb="unum"
           stack="Next.JS,TailwindCSS"
         />
         <ProjectLink
           name="rendezview"
-          slug="rendezview"
+          link="https://smelk.onrender.com"
           sub="group event planning platform"
           thumb="rendez"
           stack="MongoDB, ExpressJS, React.JS, NodeJS"
         />
         <ProjectLink
           name="fakebook"
-          slug="fakebook"
+          link="https://fakebook-tuhp.onrender.com/login"
           sub="clone of social media site Facebook"
           thumb="fake"
           stack="Ruby on Rails, ReactJS, NodeJS, PostgreSQL"
         />
       </div>
 
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm mb-24 text-neutral-600 dark:text-neutral-300">
-        <li>
+      <div className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm mb-24 text-neutral-600 dark:text-neutral-300">
+        <p>
           <a
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
@@ -152,8 +152,8 @@ export default function Page() {
           >
             <FaLinkedin size={40} />
           </a>
-        </li>
-        <li>
+        </p>
+        <p>
           <a
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
@@ -162,8 +162,8 @@ export default function Page() {
           >
             <FaGithub size={40} />
           </a>
-        </li>
-      </ul>
+        </p>
+      </div>
     </section>
   );
 }
