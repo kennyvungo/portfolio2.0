@@ -10,33 +10,29 @@ const WorkPage = () => {
         <p></p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl tracking-tighter flex flex-row justify-between overflow-y-auto">
-          BottleUp{" "}
+          Last Call Media{" "}
           <Image
-            src={"/bottle.jpg"}
-            alt="bottleup logo"
+            src={"/lcm.png"}
+            alt="lcm logo"
             width={45}
             height={50}
           />{" "}
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm -mt-3 mb-1">
-          Software Engineer Intern, Oct 2023 - Present
+          Software Engineer Apr 2024 - Present
         </p>
         <ul>
           <li>
-            Built out frontend mobile (iOS, Android) user interface (UI) using
-            React Native, Expo and TypeScript as part of end of year product
-            release
+            Perform investigation and root cause analysis on production and pre-production issues using logs and monitoring tools.
           </li>
           <li>
-            Developed backend using Supabase to facilitate faster and more
-            efficient user queries by 10%
+            Expand test coverage for a large system with diverse component applications.
           </li>
           <li>
-            Collaborated with team of 3 software engineers on CI/CD pipeline
-            using Agile and Git workflow
+          Create large amounts of test data in support of quality assurance and training teams.
           </li>
-        </ul>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+          </ul>
+          <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
           Freelance{" "}
         </h2>
@@ -85,6 +81,34 @@ const WorkPage = () => {
           <li>Review content and accuracy of drug packaging and labeling</li>
           <li>
             Review for completeness and accuracy of new and refill prescriptions
+          </li>
+        </ul>
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl tracking-tighter flex flex-row justify-between overflow-y-auto">
+          BottleUp{" "}
+          <Image
+            src={"/bottle.jpg"}
+            alt="bottleup logo"
+            width={45}
+            height={50}
+          />{" "}
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm -mt-3 mb-1">
+          Software Engineer Intern, Oct 2023 - Jan 2024
+        </p>
+        <ul>
+          <li>
+            Built out frontend mobile (iOS, Android) user interface (UI) using
+            React Native, Expo and TypeScript as part of end of year product
+            release
+          </li>
+          <li>
+            Developed backend using Supabase to facilitate faster and more
+            efficient user queries by 10%
+          </li>
+          <li>
+            Collaborated with team of 3 software engineers on CI/CD pipeline
+            using Agile and Git workflow
           </li>
         </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
